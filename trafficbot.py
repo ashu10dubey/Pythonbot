@@ -14,7 +14,7 @@ if __name__ == "__main__":
     target_url = "https://github.com/ashu10dubey"
 
     # Number of iterations
-    num_iterations = 1000
+    num_iterations = 10  
 
     for _ in range(num_iterations):
         website_content = get_website_content(target_url)
